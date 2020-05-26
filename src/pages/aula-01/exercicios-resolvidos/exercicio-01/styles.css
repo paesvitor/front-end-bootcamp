@@ -1,0 +1,46 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.movies-list-container {
+  display: flex;
+  width: 1044px;
+  margin: 0 auto;
+}
+
+.movie-card {
+  margin-right: 30px;
+  border: 1px solid black;
+}
+
+.movie-card img {
+  width: 238px;
+  height: 338px;
+  object-fit: cover;
+}
+
+.movie-card:last-child {
+  margin: 0;
+}
+
+.movie-title {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.description-container {
+  width: 739px;
+  margin: 0 auto;
+}
