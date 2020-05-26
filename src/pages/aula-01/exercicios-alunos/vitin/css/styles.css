@@ -1,0 +1,59 @@
+.fonte {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.imagem {
+  width: 238px;
+  height: 238px;
+  object-fit: cover;
+}
+
+.titulo-filmes{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.div-filmes{
+  text-align: center;
+  justify-content: center;
+}
+
+.borda {
+  width: 238px;
+  border: solid 1px;
+  display: inline-block;
+  margin: 1em;
+}
+
+.nome-filme {
+  font-size: 24px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.ano-filme {
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.titulo-sobre {
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.sobre-layout {
+  text-align: center;
+}
+
+.texto-filme {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
