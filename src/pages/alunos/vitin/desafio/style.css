@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  height: 1000px;
+  margin: 0px auto;
+}
+
+p {
+  margin: 0px;
+}
+
+.img-full {
+  float: right;
+  width: 1024px;
+  height: 1024px;
+  object-fit: cover;
+}
+
+.img-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.tittle-favorito {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 46px;
+  color: black;
+}
+
+.card-album {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 500px;
+}
+
+.card-album:last-child {
+  margin-bottom: 0px;
+}
+
+.card-album:hover {
+  transition: 0.2s all;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.tittle-album {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 26px;
+  padding-bottom: 17px;
+}
+
+.tittle-band {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #989898;
+  padding-left: 26px;
+}
+
+.tittle-year {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 17px;
+  padding-left: 26px;
+  color: #989898;
+}
+
+.container-album {
+  height: 1024px;
+  overflow: auto;
+}
