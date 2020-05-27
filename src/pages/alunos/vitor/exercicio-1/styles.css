@@ -1,3 +1,5 @@
+/* Global styles */
+
 body {
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
@@ -7,17 +9,16 @@ p {
   margin: 0;
 }
 
-h1 {
+/* Title Section */
+
+.title-container h1 {
   font-size: 60px;
   font-weight: 800;
 }
 
-h2 {
-  font-size: 36px;
-  font-weight: 800;
-}
+/* Movies Section */
 
-.movies-list-container {
+.movie-card-list-container {
   display: flex;
   width: 1044px;
   margin: 0 auto;
@@ -41,10 +42,25 @@ h2 {
 .movie-title {
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 0;
+  margin-bottom: 9px;
 }
+
+.movie-card-content {
+  padding: 15px;
+}
+
+/* Description Section */
 
 .description-container {
   width: 739px;
   margin: 0 auto;
+}
+
+.description-container h2 {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.description-container p {
+  line-height: 16px;
 }
