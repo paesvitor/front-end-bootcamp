@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  margin-bottom: 110px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card.reverse {
+  flex-direction: row-reverse;
+}
+
+.card h3 {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.card-content-wrapper {
+  display: flex;
+  align-items: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-content-wrapper * {
+  margin-bottom: 15px;
+}

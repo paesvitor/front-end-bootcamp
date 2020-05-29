@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #ededed;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+
+.navbar a {
+  color: #000000;
+  margin-right: 60px;
+}
+
+.navbar a:last-child {
+  margin: 0;
+}
+
+.navbar a:hover {
+  color: var(--colorPrimary);
+}
