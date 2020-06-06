@@ -1,0 +1,189 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: #ededed;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-master {
+  width: 175px;
+  height: 46px;
+  margin-top: 10px;
+  margin-left: 14px;
+}
+
+.nav-tittles a {
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  padding-right: 60px;
+}
+
+.nav-tittles a:last-child {
+  padding-right: 0px;
+  margin-right: 46px;
+}
+
+.nav-tittles a:hover {
+  color: #ff6b00;
+}
+
+/* hero */
+
+.hero {
+  height: 481px;
+  background-image: url("image/herobackground.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0px;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 61px;
+  line-height: 83px;
+}
+
+.hero p {
+  margin: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+}
+
+/* page wrapper */
+
+.page-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-wrapper p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-wrapper h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  color: black;
+}
+
+button {
+  background-color: #ededed;
+  width: 184px;
+  height: 41px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+
+.img-card {
+  width: 360px;
+  height: 234px;
+}
+
+.section-page {
+  width: 775px;
+  padding-bottom: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: start;
+}
+
+.content-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: end;
+}
+
+.tittle-card {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 48px;
+  color: black;
+}
+
+.subt-card {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+}
+
+/* call action */
+
+.call-action {
+  background-image: url(image/action-background.png);
+  height: 481px;
+}
+
+.call-action p {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.call-action a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  color: white;
+  margin: 0 auto;
+}
+
+.call-action button {
+  background-color: #ff6b00;
+  margin: 0 0 150px 628px;
+  color: white;
+}
+
+/* footer */
+
+.footer {
+  background-color: #ededed;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
