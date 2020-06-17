@@ -1,0 +1,25 @@
+nav {
+  height: 60px;
+  background-color: #ededed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 46px;
+}
+
+a {
+  padding-right: 60px;
+  color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+a:last-child {
+  padding-right: 0;
+}
+
+a:hover {
+  color: #ff6b00;
+}

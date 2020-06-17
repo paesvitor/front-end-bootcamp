@@ -1,0 +1,20 @@
+.hero {
+  background-image: url("../image/herobackground.png");
+  height: 481px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-weight: 500;
+  font-size: 61px;
+}
+
+.hero p {
+  font-weight: bold;
+  font-size: 24px;
+}

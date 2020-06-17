@@ -1,0 +1,25 @@
+@import "./navbar.css";
+@import "./hero.css";
+@import "./card.css";
+@import "./action.css";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito Sans";
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  width: 184px;
+  height: 41px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
